@@ -1,11 +1,4 @@
-import XCTest
+import Testing
 @testable import IndeterminateProgressView
 
-final class IndeterminateProgressViewTests: XCTestCase {
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(IndeterminateProgressView().text, "Hello, World!")
-    }
-}
+@Test func example() async throws {}
